@@ -1,0 +1,18 @@
+﻿Build started 6/29/2015 12:15:41 AM.
+     1>Project "E:\Code\abscission-image-tool\abscission-image-tool\abscission-image-tool.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -D_SCL_SECURE_NO_WARNINGS "abscission-image-tool.cpp"
+         abscission-image-tool.cpp
+     1>e:\code\abscission-image-tool\abscission-image-tool\types.h(67): warning C4244: '*=' : conversion from 'const double' to 'float', possible loss of data
+     1>e:\code\abscission-image-tool\abscission-image-tool\types.h(68): warning C4244: '*=' : conversion from 'const double' to 'float', possible loss of data
+     1>e:\code\abscission-image-tool\abscission-image-tool\abscission-image-tool.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\abscission-image-tool\Debug\abscission-image-tool.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Code\abscission-image-tool\Debug\abscission-image-tool.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\abscission-image-tool\Debug\abscission-image-tool.lib" /MACHINE:X86 "Debug\abscission-image-tool.obj"
+         Debug\PicoPNG.obj
+         Debug\Utility.obj
+         abscission-image-tool.vcxproj -> E:\Code\abscission-image-tool\Debug\abscission-image-tool.exe
+     1>Done Building Project "E:\Code\abscission-image-tool\abscission-image-tool\abscission-image-tool.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61
