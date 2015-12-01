@@ -37,7 +37,7 @@ bool Sprite::Load(const char * Filename) {
 		float Alpha = (((*P & 0xff000000) >> 24) / 255.f);
 		*P = (*P & 0xff000000) | ((int)((*P & 0xff0000) * Alpha) & 0xff0000) | ((int)((*P & 0xff00) * Alpha) & 0xff00) | ((int)((*P & 0xff) * Alpha) & 0xff);
 
-		if (Alpha != 0) {
+		if (*P & 0xff000000 != 255) {
 			hasTransparency = true;
 		}
 	}

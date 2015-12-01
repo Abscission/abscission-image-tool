@@ -1,26 +1,28 @@
-﻿Build started 6/29/2015 4:04:01 PM.
-     1>Project "E:\Code\abscission-image-tool\abscission-image-tool\abscission-image-tool\abscission-image-tool.vcxproj" on node 2 (Build target(s)).
+﻿Build started 10/8/2015 8:55:58 PM.
+     1>Project "E:\jason\Documents\abscission-image-tool\abscission-image-tool\abscission-image-tool\abscission-image-tool.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         D:\Visual Studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -D_SCL_SECURE_NO_WARNINGS "..\..\src\abscission-image-tool.cpp" ..\..\src\PicoPNG.cpp ..\..\src\Sprite.cpp ..\..\src\Utility.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt -D_SCL_SECURE_NO_WARNINGS "..\..\src\abscission-image-tool.cpp" ..\..\src\PicoPNG.cpp ..\..\src\Sprite.cpp ..\..\src\Utility.cpp
          abscission-image-tool.cpp
          PicoPNG.cpp
          Sprite.cpp
-     1>e:\code\abscission-image-tool\src\include\Types.h(67): warning C4244: '*=' : conversion from 'const double' to 'float', possible loss of data
-     1>e:\code\abscission-image-tool\src\include\Types.h(68): warning C4244: '*=' : conversion from 'const double' to 'float', possible loss of data
-     1>..\..\src\Sprite.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\jason\documents\abscission-image-tool\src\include\Types.h(67): warning C4244: '*=': conversion from 'const double' to 'float', possible loss of data
+     1>e:\jason\documents\abscission-image-tool\src\include\Types.h(68): warning C4244: '*=': conversion from 'const double' to 'float', possible loss of data
+     1>..\..\src\Sprite.cpp(28): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\src\Sprite.cpp(40): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
          Utility.cpp
-     1>e:\code\abscission-image-tool\src\include\Types.h(67): warning C4244: '*=' : conversion from 'const double' to 'float', possible loss of data
-     1>e:\code\abscission-image-tool\src\include\Types.h(68): warning C4244: '*=' : conversion from 'const double' to 'float', possible loss of data
+     1>e:\jason\documents\abscission-image-tool\src\include\Types.h(67): warning C4244: '*=': conversion from 'const double' to 'float', possible loss of data
+     1>e:\jason\documents\abscission-image-tool\src\include\Types.h(68): warning C4244: '*=': conversion from 'const double' to 'float', possible loss of data
        Link:
-         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Code\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.lib" /MACHINE:X86 /SAFESEH "Release\abscission-image-tool.obj"
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\jason\Documents\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\jason\Documents\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\jason\Documents\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.lib" /MACHINE:X86 /SAFESEH "Release\abscission-image-tool.obj"
          Release\PicoPNG.obj
          Release\Sprite.obj
          Release\Utility.obj
          Generating code
+         All 231 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
          Finished generating code
-         abscission-image-tool.vcxproj -> E:\Code\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.exe
-     1>Done Building Project "E:\Code\abscission-image-tool\abscission-image-tool\abscission-image-tool\abscission-image-tool.vcxproj" (Build target(s)).
+         abscission-image-tool.vcxproj -> E:\jason\Documents\abscission-image-tool\abscission-image-tool\Release\abscission-image-tool.exe
+     1>Done Building Project "E:\jason\Documents\abscission-image-tool\abscission-image-tool\abscission-image-tool\abscission-image-tool.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.94
+Time Elapsed 00:00:02.67
